@@ -1,0 +1,25 @@
+--> to install
+  npm add bcrypt cors dotenv express helmet mongoose morgan nodemon
+
+--> npm init
+-->for postman
+   select body/raw
+
+
+-->for database access
+databases / collections  
+
+-->error with mongo data
+I've had actually the same problem and 
+     rm -rf node_modules
+and 
+     npm install
+didn't fix it. I had to run 
+    npm cache clear --force 
+as well. As it came up occasionally, 
+    npm update
+
+-->error with insertone(solved)
+   -->create new user to database acess and set it to isadmin
+
+https://stackoverflow.com/questions/61800062/error-querytxt-etimeout-when-connecting-to-mongodb-atlas-using-mongoose
